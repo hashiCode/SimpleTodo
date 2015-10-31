@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_default_view_key">
+        <item>@string/tasks.all</item>
+        <item>@string/tasks.month</item>
+        <item>@string/tasks.week</item>
+        <item>@string/tasks.today</item>
+        <item>@string/tasks.late</item>
+    </string-array>
+
+    <string-array name="pref_default_view_values">
+        <item>@string/tasks.all</item>
+        <item>@string/tasks.month</item>
+        <item>@string/tasks.week</item>
+        <item>@string/tasks.today</item>
+        <item>@string/tasks.late</item>
+    </string-array>
+</resources>

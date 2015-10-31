@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+    <ListPreference
+        android:title="@string/preferences.default.view.label"
+        android:defaultValue="@string/tasks.today"
+        android:key="@string/preferences.default.view.key"
+        android:dialogTitle="@string/preferences.default.view.dialog"
+        android:summary="@string/tasks.today"
+        android:entries="@array/pref_default_view_key"
+        android:entryValues="@array/pref_default_view_values"></ListPreference>
+
+</PreferenceScreen>

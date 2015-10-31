@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/tasks">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/tasks_all"
+                        android:title="@string/tasks.all"/>
+                    <item
+                        android:id="@+id/tasks_today"
+                        android:title="@string/tasks.today"/>
+                    <item
+                        android:id="@+id/tasks_week"
+                        android:title="@string/tasks.week"/>
+                    <item
+                        android:id="@+id/tasks_month"
+                        android:title="@string/tasks.month"/>
+                    <item
+                        android:id="@+id/tasks_late"
+                        android:title="@string/tasks.late"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"/>
+</menu>

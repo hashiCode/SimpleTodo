@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    ></include>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment_task"
+              android:name="com.hashicode.simpletodo.fragment.TaskFragment" tools:layout="@layout/fragment_task"
+              android:layout_width="match_parent" android:layout_height="match_parent" />
+
+</LinearLayout>

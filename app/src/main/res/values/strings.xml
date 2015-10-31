@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SimpleTodo</string>
+
+    <string name="drawer.open">Open</string>
+    <string name="drawer.close">Close</string>
+    
+    <string name="tasks">Tasks</string>
+    <string name="tasks.all">All Tasks</string>
+    <string name="tasks.today">Today</string>
+    <string name="tasks.week">Week</string>
+    <string name="tasks.month">Month</string>
+    <string name="tasks.late">Late</string>
+    <string name="settings">Settings</string>
+
+    <string name="no.tasks.all">You don\'t have any tasks.</string>
+    <string name="no.tasks.today">You don\'t have any tasks for today.</string>
+    <string name="no.tasks.week">You don\'t have any tasks for this week.</string>
+    <string name="no.tasks.month">You don\'t have any tasks for this month.</string>
+    <string name="no.tasks.late">You don\'t have any tasks delayed.</string>
+    <string name="task.create">Create Task</string>
+    <string name="task.edit">Edit Task</string>
+    <string name="task.name">Task name</string>
+    <string name="task.remind.date">Date</string>
+    <string name="task.remind.location">Location</string>
+    <string name="task.remind.none">No date selected</string>
+    <string name="task.delete">Delete</string>
+    <string name="task.notification.single_title">You have a task now</string>
+    <string name="task.notification.multiple_title">You have %1$d tasks</string>
+    <string name="task.notification.multiple.sumary">and more %1$d</string>
+    <string name="task.done">Done</string>
+    <string name="task.dismiss">Dismiss</string>
+
+    <string name="preferences.default.view.label">Default view</string>
+    <string name="preferences.default.view.key">DefaultViewKey</string>
+    <string name="preferences.default.view.dialog">Select a view</string>
+</resources>
